@@ -11,7 +11,7 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #272829;
+  color: #191c1b;
 }
 
 a {
@@ -43,7 +43,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #149ddd;
+  background: #fdaf17;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -79,7 +79,7 @@ h6 {
   z-index: 9997;
   transition: all 0.5s;
   padding: 0 15px;
-  background: #040b14;
+  background: #191c1b;
   overflow-y: auto;
 }
 
@@ -87,7 +87,7 @@ h6 {
   margin: 15px auto;
   display: block;
   width: 120px;
-  border: 8px solid #2c2f3f;
+  border: 8px solid #fdaf17;
 }
 
 #header .profile h1 {
@@ -102,7 +102,7 @@ h6 {
 
 #header .profile h1 a,
 #header .profile h1 a:hover {
-  color: #fff;
+  color: #e6e0e0;
   text-decoration: none;
 }
 
@@ -110,7 +110,7 @@ h6 {
   font-size: 18px;
   display: inline-block;
   background: #212431;
-  color: #fff;
+  color: #e6e0e0;
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -123,18 +123,18 @@ h6 {
 
 #header .profile .social-links .linkedin:hover {
   background: #0077B5;
-  color: #fff;
+  color: #e6e0e0;
   text-decoration: none;
 }
 #header .profile .social-links .whatsapp:hover {
   background: #25d366;
-  color: #fff;
+  color: #e6e0e0;
   text-decoration: none;
 }
 
 #header .profile .social-links .GitHub:hover {
   background: #181717;
-  color: #fff;
+  color: #e6e0e0;
   text-decoration: none;
 }
 
@@ -229,7 +229,7 @@ h6 {
 .nav-menu .active i,
 .nav-menu .active:focus i,
 .nav-menu li:hover>a i {
-  color: #149ddd;
+  color: #fdaf17;
 }
 
 /* Mobile Navigation */
@@ -242,7 +242,7 @@ h6 {
   font-size: 24px;
   transition: all 0.4s;
   outline: none !important;
-  background-color: #149ddd;
+  background-color: #fdaf17;
   color: #fff;
   width: 40px;
   height: 40px;
@@ -294,21 +294,21 @@ h6 {
   font-size: 64px;
   font-weight: 700;
   line-height: 56px;
-  color: #fff;
+  color: #e6e0e0;
 }
 
 #hero p {
-  color: #fff;
+  color: #e6e0e0;
   margin-bottom: 50px;
   font-size: 26px;
   font-family: "Poppins", sans-serif;
 }
 
 #hero p span {
-  color: #fff;
+  color: #e6e0e0;
   padding-bottom: 4px;
   letter-spacing: 1px;
-  border-bottom: 3px solid #149ddd;
+  border-bottom: 3px solid #fdaf17;
 }
 
 @media (min-width: 1024px) {
@@ -352,7 +352,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #173b6c;
+  color: #191c1b;
 }
 
 .section-title h2::after {
@@ -361,7 +361,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: #149ddd;
+  background: #fdaf17;
   bottom: 0;
   left: 0;
 }
@@ -376,7 +376,7 @@ section {
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #173b6c;
+  color: #191c1b;
 }
 
 .about .content ul {
@@ -397,7 +397,7 @@ section {
 .about .content ul i {
   font-size: 16px;
   margin-right: 5px;
-  color: #149ddd;
+  color: #fdaf17;
   line-height: 0;
 }
 
@@ -490,7 +490,7 @@ section {
   width: 1px;
   height: 10px;
   transition: 0.9s;
-  background-color: #149ddd;
+  background: linear-gradient(to right, #fdaf17, #e6e0e0);
 }
 
 /*--------------------------------------------------------------
@@ -507,7 +507,7 @@ section {
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #1f5297;
+  border-left: 2px solid #fdaf17;
   position: relative;
 }
 
@@ -550,8 +550,8 @@ section {
   border-radius: 50px;
   left: -9px;
   top: 0;
-  background: #fff;
-  border: 2px solid #1f5297;
+  background: #fdaf17;
+  border: 2px solid #191c1b;
 }
 
 /*--------------------------------------------------------------
@@ -629,13 +629,13 @@ section {
   color: #fff;
   font-size: 28px;
   text-align: center;
-  background: rgba(20, 157, 221, 0.75);
+  background: #191c1b;
   transition: 0.3s;
   width: 50%;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  background: rgba(20, 157, 221, 0.95);
+  background: #fdaf17;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a+a {
@@ -676,11 +676,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #149ddd;
+  border: 1px solid #fdaf17;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #149ddd;
+  background-color: #fdaf17;
 }
 
 .portfolio-details .portfolio-info {
